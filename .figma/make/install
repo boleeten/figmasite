@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Figma가 저장소를 클론한 뒤 가장 먼저 실행하는 스크립트: 의존성 설치
+set -euo pipefail
+npm install --no-audit --no-fund

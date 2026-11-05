@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# install 다음에 실행되는 스크립트: dev 서버를 띄워 "/" 경로를 서빙
+set -euo pipefail
+exec npx vite --host 0.0.0.0 --port "${PORT:-5173}"
